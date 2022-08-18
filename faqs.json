@@ -1,0 +1,41 @@
+{
+    "faqs" : [
+        {
+            "tag" : "salam",
+            "patterns" : [
+                "Halo",
+                "Selamat siang",
+                "Selamat pagi",
+                "Selamat malam",
+                "Selamat sore"
+            ],
+            "response" : [
+                "Halo, selamat datang di chatbot Universitas Brawijaya",
+                "Hai! Apa yang bisa bantu?"
+            ]
+        },
+        {
+            "tag" : "terlambat krs",
+            "patterns" : [
+                "Bagaimana cara mengurus keterlambatan pengisian KRS?",
+                "Telat mengisi KRS",
+                "Saya telat dalam pengisian KRS"
+            ],
+            "response" : [
+                "Anda dapat menghubungi bagian administrasi program studi untuk mendapatkan solusi."
+            ]
+        },
+        {
+            "tag" : "ktm hilang",
+            "patterns" : [
+                "Bagaimana cara mengurus KTM hilang?",
+                "Bagaimana cara mengurus KTM rusak?",
+                "ktm saya hilang",
+                "ktm saya rusak bagaimana cara mengurusnya?"
+            ],
+            "response" : [
+                "Silakan mengisi form surat keterangan kehilangan di Markas Komando Satpam dengan membawa identitas diri. Form tersebut akan diserahkan ke Kantor Polisi terdekat untuk mengurus surat kehilangan dan dilanjutkan dengan membayar Rp 75.000,- ke Bank BNI dan dilanjutkan cetak KTM baru di Rektorat Lt.2."
+            ]
+        }
+    ]
+}
