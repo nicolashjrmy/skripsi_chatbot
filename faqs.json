@@ -36,6 +36,430 @@
             "response" : [
                 "Silakan mengisi form surat keterangan kehilangan di Markas Komando Satpam dengan membawa identitas diri. Form tersebut akan diserahkan ke Kantor Polisi terdekat untuk mengurus surat kehilangan dan dilanjutkan dengan membayar Rp 75.000,- ke Bank BNI dan dilanjutkan cetak KTM baru di Rektorat Lt.2."
             ]
+        },
+        {
+            "tag" : "sanksi tidak daftar ulang sesuai jadwal",
+            "patterns" : [
+                "Apa sanksinya apabila mahasiswa tidak daftar ulang sesuai jadwal?",
+                "sanksi telat daftar ulang",
+                "daftar ulang tidak sesuai ketentuan"
+            ],
+            "response" : [
+                "Sanksi bila tidak melakukan Registrasi Administrasi : 1. Mahasiswa yang tidak melakukan registrasi administrasi pada semester berjalan dinyatakan tidak terdaftar sebagai mahasiswa Universitas Brawijaya  dan tidak diperkenankan melakukan kegiatan akademik dan kemahasiswaan pada semester tersebut. 2. Mahasiswa Universitas Brawijaya yang tidak terdaftar lebih dari 2 (dua) semester  kumulatif dan berturut-turut, dinyatakan putus kuliah (drop out)."
+            ]
+        },
+        {
+            "tag" : "syarat cuti atau terminal",
+            "patterns" : [
+                "Apa syarat pengajuat cuti atau terminal akademik?",
+                "syarat pengajuan cuti akademik",
+                "syarat pengajuan terminal akademik"
+            ],
+            "response" : [
+                "Permohonan cuti akademik dapat diajukan secara online melalui siam.ub.ac.id. Akademik fakultas akan memvalidasi dan Akademik Rektorat akan mengeluarkan surat persetujuan dengan dibebaskan dari pembayaran UKT/SPP dan masa studi tidak dihitung dan surat persetujuan dapat diunduh di siam mahasiswa. Permohonan cuti akademik yang diajukan setelah batas akhir pengajuan cuti akademik atau setelah tanggal ditetapkan akan ditolak, dan disarankan untuk segera mengajukan permohonan terminal kuliah serta tetap diwajibkan membayar SPP/UKT."
+            ]
+        },
+        {
+            "tag" : "pindah jurusan",
+            "patterns" : [
+                "Apakah bisa mengajukan pindah jurusan?",
+                "Apa syarat untuk mengajukan pindah jurusan?",
+                "bagaimana cara untuk pindah jurusan"
+            ],
+            "response" : [
+                "Pindah jurusan harus dalam jenjang pendidikan yang sama serta memenuhi syarat. Perpindahan mahasiswa bisa dilakukan dalam satu fakultas atau perpindahan program studi antar fakultas. Ketentuan lebih jelas diatur dalam buku Pedoman Akademik UB yang sudah di upload di link: https://ub.ac.id/id/about/official-documents/ pada dokumen Nomor 29."
+            ]
+        },
+        {
+            "tag" : "penjelasan cuti akademik",
+            "patterns" : [
+                "Apakah cuti akademik itu?",
+                "cuti akademik"
+            ],
+            "response" : [
+                "Cuti akademik adalah penundaan registrasi administrasi dalam jangka waktu tertentu, yang diajukan paling lambat satu bulan setelah masa registrasi dan disetujui oleh rektor sehingga tidak diperhitungkan sebagai masa studi serta tidak dikenakan biaya pendidikan."
+            ]
+        },
+        {
+            "tag" : "penjelasan terminal akademik",
+            "patterns" : [
+                "Apakah terminal kuliah itu?",
+                "terminal kuliah"
+            ],
+            "response" : [
+                "Terminal kuliah adalah Permohonan Cuti Akademik yang diajukan setelah satu bulan berakhirnya masa registrasi dan disetujui oleh Rektor, Terminal tidak diperhitungkan sebagai masa studi namun tetap diwajibkan membayar biaya SPP/UKT."
+            ]
+        },
+        {
+            "tag" : "daftar ulang mahasiswa lama",
+            "patterns" : [
+                "Bagaimana cara melakukan daftar ulang bagi mahasiswa lama?",
+                "syarat daftar ulang mahasiswa lama"
+            ],
+            "response" : [
+                "Pertama, melakukan registrasi administrasi dengan cara melakukan pembayaran pada bank yang ditunjuk dapat melalui berbagai chanel. Tata pembayaran: https://selma.ub.ac.id/tata-cara-pembayaran. Bagi mahasiswa yang semester sebelumnya tidak daftar ulang, harus mengajukan surat aktif kuliah kembali kepada Rektor yang disetujui oleh Fakultas (WD I). Informasi dan tata cara daftar ulang untuk mahasiswa lama Mahasiswa Vokasi, S-1 dan Pascasarjana dapat melihat pada http://www.ub.ac.id."
+            ]
+        },
+        {
+            "tag" : "legalisir ijazah",
+            "patterns" : [
+                "Bagaimana cara melakukan legalisir ijazah?",
+                "Bagaimana cara melakukan legalisir transkrip nilai?"
+            ],
+            "response" : [
+                "Silahkan menghubungi bagian Akademik di Fakultas anda. Jangan lupa membawa salinan ijazah/transkrip yang akan akan dilegalisir sejumlah yang diperlukan."
+            ]
+        },
+        {
+            "tag" : "informasi pendaftaran",
+            "patterns" : [
+                "Bagaimana cara mendapatkan informasi tentang pendaftaran mahasiswa baru?",
+                "bagaimana cara daftar di UB",
+                "informasi pembukaan pendaftaran mahasiswa baru UB"
+            ],
+            "response" : [
+                "Anda dapat mengakses informasinya melalui website : http://selma.ub.ac.id"
+            ]
+        },
+        {
+            "tag" : "legalisir sertifikat APT",
+            "patterns" : [
+                "Bagaimana cara mendapatkan legalisir sertifikat Akreditasi Perguruan Tinggi?",
+                "cara mengurus legalisir sertifikat akreditasi perguruan tinggi"
+            ],
+            "response" : [
+                "Legalisir sertifikat akreditasi Perguruan Tinggi dapat dilakukan di Bagian Akademik di Rektorat UB (lantai 2) dengan syarat cetakan berwarna sertifikat akreditasi tahun lulus mahasiswa (maks 3 lembar). Sertifikat akreditasi dapat diunduh : http://bak.ub.ac.id/layanan-akademik/akreditasi-program-studi/"
+            ]
+        },
+        {
+            "tag" : "mengajukan terminal kuliah",
+            "patterns" : [
+                "Bagaimana cara mengajukan terminal kuliah?"
+            ],
+            "response" : [
+                "Terminal kuliah adalah penundaan registrasi administrasi dalam jangka waktu tertentu, yang diajukan setelah satu bulan berakhirnya masa registrasi dan disetujui oleh Rektor sehingga tidak diperhitungkan sebagai masa studi namun tetap diwajibkan membayar biaya pendidikan."
+            ]
+        },
+        {
+            "tag" : "status siam",
+            "patterns" : [
+                "Bagaimana cara mengurus status di SIAM belum membayar ukt padahal sudah membayar?",
+                "Saya sudah membayar ukt tapi pada siam muncul tulisan belum membayar ukt"
+               
+            ],
+            "response" : [
+                "Silahkan melapor pada haloselma.ub.ac.id dan mencantumkan nama, NIM dan upload Bukti bayar yang telah dilakukan."
+            ]
+        },
+        {
+            "tag" : "mengetahui nilai anak",
+            "patterns" : [
+                "Bagaimana caranya agar orang tua mahasiswa dapat mengetahui nilai kuliah anaknya?",
+                "Bagaimana cara untuk mengetahui nilai kuliah anak saya"
+               
+            ],
+            "response" : [
+                "Anda dapat mengakses informasinya melalui [http://siam.ub.ac.id], tiap awal penerimaan mahasiswa baru Fakultas telah melakukan sosialisasi tata cara akses ke siam untuk melihat hasil studi anaknya."
+            ]
+        },
+        {
+            "tag" : "daftar ulang setelah cuti",
+            "patterns" : [
+                "Bagaimana cara daftar ulang setelah cuti kuliah?",
+                "Bagaimana cara daftar ulang setelah terminal kuliah?"
+            ],
+            "response" : [
+                "Mahasiswa langsung melakukan proses pembayaran di Bank, apabila masih belum ada tagihan dan belum ada pembebasan SPP/UKT bagi yang cuti silahkan anda melapor pada haloselma.ub.ac.id untuk mengurus pembukaan blokir agar anda dapat membayar UKT dan daftar ulang."
+            ]
+        },
+        {
+            "tag" : "informasi akreditasi",
+            "patterns" : [
+                "Informasi mengenai akreditasi prodi",
+                "Informasi mengenai akreditasi Perguruan Tinggi",
+                "Bagaimana mencari informasi akreditasi prodi atau PT?"
+            ],
+            "response" : [
+                "Silakan membuka link: https://www.banpt.or.id/bianglala/bianglala.php"
+            ]
+        },
+        {
+            "tag" : "pemilihan prodi pada mandiri",
+            "patterns" : [
+                "cara memilih prodi dalam program mandiri UB",
+                "bagaimana cara untuk memilih program studi pada mandiri UB?"
+            ],
+            "response" : [
+                "Informasi prodi ada di link selma.ub.ac.id dan Pastikan di baca dengan teliti pesyaratan pada masing-masing Prodi khususnya syarat kesehatan dan latar belakang SMA/SMK/MA Saudara."
+            ]
+        },
+        {
+            "tag" : "pengunduran diri di UB",
+            "patterns" : [
+                "saya ingin mengajukan pengunduran diri, bagaimana caranya?",
+                "tata cara pengunduran diri di UB"
+            ],
+            "response" : [
+                "Sebelumnya, apakah Anda termasuk mahasiswa lama atau mahasiswa baru?"
+            ]
+        },
+        {
+            "tag" : "pengunduran ML",
+            "patterns" : [
+                "saya mahasiswa lama"
+            ],
+            "response" : [
+                "Prosedur pengajuan bagi mahasiswa lama ajukan Surat permohonan Surat ke Rektor UB dengan alasan pengunduran diri dan mengetahui orang tua dan di kirimkan melalui upload di siam.ub.ac.id nanti Fakultas akan memvalidasi dan Rektorat lakukan proses Persetujuan Rektor untuk perubahan status menjadi mengundurkan diri."
+            ]
+        },
+        {
+            "tag" : "pengunduran MB",
+            "patterns" : [
+                "saya mahasiswa baru"
+            ],
+            "response" : [
+                "Prosedur pengajuan bagi mahasiswa baru ajukan Surat permohonan Surat ke Rektor UB dengan alasan pengunduran diri dan mengetahui orang tua dan di kirimkan ke email tupusatub@ub.ac.id dan di cc ke akademik.center@ub.ac.id"
+            ]
+        },
+        {
+            "tag" : "manfaat ukm",
+            "patterns" : [
+                "Apa manfaat yang didapat ketika mengikuti UKM?",
+                "Manfaat bergabung ke Unit Kegiatan Mahasiswa"
+            ],
+            "response" : [
+                "Kegiatan organisasi mahasiswa tak hanya sebagai sarana untuk mengembangkan atau membentuk soft skill dalam diri mahasiswa, tapi juga sebagai fasilitas untuk mendapatkan kesempatan memperoleh berbagai macam ilmu dan perspektif yang baru. Mahasiswa akan belajar tentang kepemimpinan, memperluas jaringan diantara mahasiswa/ hingga fakultas, mengasah interaksi sosial serta problem solving. UKM juga menjadi wadah bagi mahasiswa untuk meregenerasi dan menyalurkan potensi non akademik mereka agar dapat diwujudkan melalui prestasi di tingkat nasional maupun internasional. Hal tersebut juga berpeluang dalam meningkatkan mutu mahasiswa serta apresiasi dari universitas melalui penghargaan/reward."
+            ]
+        },
+        {
+            "tag" : "bidang pkm",
+            "patterns" : [
+                "Apa saja bidang-bidang di PKM?",
+                "Ada berapa bidang di PKM"
+            ],
+            "response" : [
+                "PKM 5 Bidang (PKM-R, PKM-K, PKM-PM, PKM-PI, PKM-KC), PKM-GFK, PKM-GT dan PKM-AI"
+            ]
+        },
+        {
+            "tag" : "lembaga mahasiswa UB",
+            "patterns" : [
+                "Apa saja lembaga mahasiswa yang ada di UB?",
+                "lembaga mahasiswa di UB"
+            ],
+            "response" : [
+                "Organisasi mahasiswa intra kampus yang ada di UB terdiri Eksekutif Mahasiswa (EM), Badan Eksekutif Mahasiswa (BEM), Dewan Perwakilan Mahasiswa (DPM), Unit Kegiatan Mahasiswa (UKM), Himpunan Mahasiswa Jurusan (HMJ) dan Lembaga Otonom/Lembaga Semi Otonom (LO/LSO)."
+            ]
+        },
+        {
+            "tag" : "bem",
+            "patterns" : [
+                "Apakah Badan Eksekutif Mahasiswa (BEM)?",
+                "Apasih BEM?",
+                "Deskripsi BEM"
+            ],
+            "response" : [
+                "Badan Eksekutif Mahasiswa (BEM) adalah organisasi mahasiswa intra kampus yang merupakan lembaga eksekutif di tingkat fakultas. Dalam melaksanakan program-programnya, umumnya BEM memiliki beberapa kementerian/departemen/biro. Dengan semangat mahasiswa sebagai agent of change (agen perubahan), BEM menjadi sebuah lembaga yang bisa mewadahi aspirasi mahasiswa yang memiliki semangat untuk melakukan perubahan, dalam paradigma, emosional, intelektual sekaligus nilai-nilai religius."
+            ]
+        },
+        {
+            "tag" : "beasiswa",
+            "patterns" : [
+                "Apakah beasiswa yang disediakan hanya diperuntukkan bagi mahasiswa yang kurang mampu saja?",
+                "Apakah beasiswa tersedia bagi semua mahasiswa?"
+            ],
+            "response" : [
+                "Mahasiswa yang memilik prestasi akademik memiliki kesempatan yang sama untuk mendapatkan beasiswa, baik dari kalangan yang mampu maupun tidak mampu. Mahasiswa boleh memilih salah satu dari sekian banyak beasiswa yang telah ditawarkan. Jika sudah mengambil beasiswa yang telah diinginkan, mahasiswa tersebut tidak diperkenankan untuk mengambil beasiswa yang berbeda."
+            ]
+        },
+        {
+            "tag" : "dpm",
+            "patterns" : [
+                "Apakah Dewan Perwakilan Mahasiswa (DPM)?",
+                "Apasih DPM?",
+                "Deskripsi DPM"
+            ],
+            "response" : [
+                "Badan Perwakilan Mahasiswa (DPM) adalah sebuah institusi dalam kampus yang merupakan lembaga tertinggi sebagai pengawas dan pengendali kehidupan dinamika keorgansasian dan aspirasi mahasiswa di kampus. Dengan demikian DPM merupakan pengawas EM dan BEM."
+            ]
+        },
+        {
+            "tag" : "em",
+            "patterns" : [
+                "Apakah Eksekutif Mahasiswa (EM)?",
+                "Apasih EM?",
+                "Deskripsi EM"
+            ],
+            "response" : [
+                "EM merupakan organisasi kemahasiswaan di tingkat universitas. Karena organisasi ini berada di tingkat universitas maka para anggotanya berasal dari fakultas yang berbeda-beda, yang biasanya dilakukan perekrutan anggota setelah Presiden EM terpilih. Bagi mahasiswa yang ingin menjadi salah satu anggota organisasi ini, mahasiswa harus menunggu satu tahun karena perekrutan anggota dilakukan jauh sebelum mahasiswa baru. Mahasiswa akan mendapat kesempatan menjadi anggota setelah setahun menjadi mahasiswa."
+            ]
+        },
+        {
+            "tag" : "fungsi bagian kemahasiswaan ub",
+            "patterns" : [
+                "Apakah fungsi dan tugas dari Bagian Kemahasiswaan UB?",
+                "tugas dari bagian kemahasiswaan UB",
+                "fungsi dari bagian kemahasiswaan UB"
+            ],
+            "response" : [
+                "Secara umum Bagian Kemahasiswaan mempunyai tugas memberikan layanan administrasi kemahasiswaan, minat dan bakat, penalaran, serta membantu kesejahteraan mahasiswa (beasiswa) di lingkungan Universitas Brawijaya."
+            ]
+        },
+        {
+            "tag" : "wajib ukm",
+            "patterns" : [
+                "Apakah mahasiswa UB wajib mengikuti UKM?",
+                "apakah mahasiswa harus mengikuti UKM",
+                "apakah UKM wajib?"
+            ],
+            "response" : [
+                "Mahasiswa tidak diwajibkan untuk mengikuti UKM, namun setiap mahasiswa Universitas Brawijaya dianjurkan untuk setidaknya mengikuti minimal satu kegiatan UKM yang telah disediakan."
+            ]
+        },
+        {
+            "tag" : "pkm",
+            "patterns" : [
+                "Apakah Program Kreativitas Mahasiswa (PKM)?",
+                "Apasih PKM?",
+                "Deskripsi PKM"
+            ],
+            "response" : [
+                "PKM adalah suatu wadah yang menampung kreatifitas mahasiswa UB dalam memfasilitasi prestasi yang dimiliki oleh mahasiswa untuk mengkaji, mengembangkan dan menerapkan ilmu dan teknologi yang diperoleh dari kuliah untuk diterapkan dalam masyarakat."
+            ]
+        },
+        {
+            "tag" : "pengajuan ukm",
+            "patterns" : [
+                "Apakah setiap kegiatan UKM yang diajukan harus melalui Bagian Kemahasiswaan UB?"
+            ],
+            "response" : [
+                "Ya, Bagian Kemahasiswaan bertanggung jawab dan memiliki wewenang untuk mengatur setiap kegiatan yang dilakukan oleh masing-masing UKM, seperti koordinasi, memberikan pengarahan, memantau hingga mengelola pelaksanaan kegiatan UKM. Bagian Kemahasiswaan juga memberikan pelayanan meliputi ijin kegiatan, surat dispensasi, surat tugas, anggaran hingga fasilitas pendukung."
+            ]
+        },
+        {
+            "tag" : "ukm",
+            "patterns" : [
+                "Apakah UKM itu?",
+                "Ada berapa UKM di UB?"
+            ],
+            "response" : [
+                "Unit Kegiatan Mahasiswa berdiri dibawah naungan Bagian Kemahasiswaan. Lembaga ini merupakan unit pelaksana kegiatan ekstrakurikuler di tingkat Universitas. Unit Kegiatan Mahasiswa terbagi dalam 48 bidang seperti : \n1) Penalaran: 8 UKM\n2) Minat Olah Raga: 22 UKM\n3) UKM Religi: 5 UKM\n4) Minat Kesenian: 7 UKM\n5) Minat Khusus: 6 UKM"
+            ]
+        },
+        {
+            "tag" : "daftar ukm",
+            "patterns" : [
+                "Bagaimana cara mendaftar UKM di UB?",
+                "Cara mengikuti UKM",
+                "Tata cara pendaftaran UKM UB"
+            ],
+            "response" : [
+                "Unit Kegiatan Mahasiswa sudah diperkenalkan kepada mahasiswa baru ketika mengikuti Pengenalan Kehidupan Kampus Mahasiswa Baru (PK2MB) disetiap tahun ajaran baru. Dalam kegiatan tersebut terdapat rangkaian acara yang bertajuk “Open House UKM”, di dalam event Open House UKM inilah mahasiswa akan mendapat berbagai macam informasi mengenai masing-masing UKM. Mahasiswa dapat mendaftar langsung ke stan-stan UKM yang telah disediakan. Mahasiswa juga bisa mengunjungi gedung UKM yang terletak di dalam kampus untuk ikut berpartisipasi di dalam kegiatan mahasiswa yang telah diminati."
+            ]
+        },
+        {
+            "tag" : "informasi beasiswa",
+            "patterns" : [
+                "Bagaimana cara mendapat informasi mengenai beasiswa di UB?",
+                "informasi beasiswa",
+                "Pengumuman tentang beasiswa UB"
+            ],
+            "response" : [
+                "Universitas Brawijaya menyediakan berbagai jenis beasiswa bagi mahasiswa berprestasi maupun mahasiswa kurang mampu. Beasiswa tersebut bersumber dari berbagai stakeholder yang telah bekerjasama dengan UB, baik dari institusi pemerintah maupun non-pemerintah (swasta). Kurang lebih ada 52 pilihan jenis beasiswa yang telah disediakan, mulai dari program beasiswa Bidikmisi/KIP-K, program afirmasi Dikti, Papua dan Papua Barat, 3T, Adem. Pengelolaan, pendaftaran dan seleksi beasiswa UB diselenggarakan secara online maupun offline oleh Bagian Kemahasiswaan UB. Untuk informasi lebih lanjut silakan berkunjung di tautan http://beasiswa.ub.ac.id/"
+            ]
+        },
+        {
+            "tag" : "pemilihan dpm",
+            "patterns" : [
+                "Bagaimana memilih anggota DPM?",
+                "Cara pemilihan anggota DPM"
+            ],
+            "response" : [
+                "Anggota DPM adalah mahasiswa yang telah dipilih dalam Pemilu Raya (PEMIRA) dengan persyaratan yang telah ditentukan pada Peraturan Rektor."
+            ]
+        },
+        {
+            "tag" : "struktur kemahasiswaan ub",
+            "patterns" : [
+                "Bagaimana struktur organisasi bagian kemahasiswaan di UB?",
+                "struktur organisasi kemahasiswaan ub"
+            ],
+            "response" : [
+                "Secara struktur, Bagian Kemahasiswaan UB berada dibawah Biro Akademik dan Kemahasiswaan yang dipimpin oleh Wakil Rektor Bidang Kemahasiswaan, Wakil Rektor Bidang Kemahasiswaan dibantu oleh 5 orang staf ahli. Untuk informasi lebih lanjut silakan berkunjung di tautan https://kemahasiswaan.ub.ac.id/profil/blog-staff-kemahasiswaan/"
+            ]
+        },
+        {
+            "tag" : "mahasiswa prestasi",
+            "patterns" : [
+                "Untuk mahasiswa yang telah memiliki prestasi, apakah juga mendapatkan penghargaan tertentu dari UB?"
+        
+            ],
+            "response" : [
+                "Bagi mahasiswa S1 dan Vokasi yang telah mendapatkan prestasi tingkat provinsi, wilayah, nasional maupun internasional dapat mengajukan penghargaan/reward sesuai ketentuan dari Bagian Kemahasiswaan. Pengajuan reward dari prestasi non-akademik terbagi menjadi dua pilihan yaitu : 1.Bagian Minat Bakat : Prestasi Olaharaga dan Seni; 2. Bagian Penalaran : Prestasi Ilmiah, Kreativitas dan Inovasi. Untuk informasi mengenai manual prosedur pengajuan reward silahkan berkunjung di tauntan http://kemahasiswaan.ub.ac.id/reward-mahasiswa/"
+            ]
+        },
+        {
+            "tag" : "penundaan ukt",
+            "patterns" : [
+                "Bagaimana caranya mengajukan penundaan UKT",
+                "Bagaimana caranya mengajukan peringanan UKT",
+                "Bagaimana caranya mengajukan penurunan UKT",
+                "Bagaimana caranya mengajukan pembebasan UKT"
+            ],
+            "response" : [
+                "Anda dapat mengajukan permohonan kepada Dekan Fakultas paling lambat 8 hari sebelum jadwal pembayaran UKT berakhir melalui laman; bantuankeuangan.ub.ac.id dan dilengkapi persyaratan sebagaimana tercantum dalam Pertor No. 40 Tahun 2020"
+            ]
+        },
+        {
+            "tag" : "telat membayar",
+            "patterns" : [
+                "Bagaimana jika terlambat membayar SPP dan terlambat mendaftar ulang?",
+                "Saya terlambat membayar SPP, apa yang harus saya lakukan?",
+                "Saya terlambat melakukan daftar ulang"
+            ],
+            "response" : [
+                "Anda dapat mengajukan permohonan KRS kepada Sub.Bagian Akademik Fakultas."
+            ]
+        },
+        {
+            "tag" : "biaya mandiri",
+            "patterns" : [
+                "Berapa biaya kuliah di UB bagi mahasiswa jalur mandiri?",
+                "Biaya kuliah untuk mahasiswa mandiri UB"
+            ],
+            "response" : [
+                "Biaya kuliah jalur mandiri bisa dilihat https://selma.ub.ac.id/en/biaya-pendidikan-bagi-mahasiswa-baru-program-sarjana-yang-diterima-melalui-jalur-seleksi-mandiri-tahun-akademik-20192020/"
+            ]
+        },
+        {
+            "tag" : "biaya vokasi",
+            "patterns" : [
+                "Berapa biaya kuliah di UB bagi mahasiswa jalur vokasi?",
+                "Biaya kuliah untuk mahasiswa vokasi UB"
+            ],
+            "response" : [
+                "Biaya kuliah jalur vokasi bisa dilihat https://selma.ub.ac.id/en/uang-kuliah-tunggal-ukt-bagi-mahasiswa-baru-program-pendidikan-vokasi-ub-20192020/"
+            ]
+        },
+        {
+            "tag" : "ukt maba",
+            "patterns" : [
+                "Berapa UKT mahasiswa baru jalur SNMPTN 2020?",
+                "Berapa UKT mahasiswa baru jalur SBMPTN 2020?"
+            ],
+            "response" : [
+                "UKT Maba yang diterima melalui SNMPTN dan SBMPTN 2020 dapat melihat : https://selma.ub.ac.id/en/uang-kuliah-tunggal-mahasiswa-baru-jalur-snmptn-dan-sbmptn-2020/"
+            ]
+        },
+        {
+            "tag" : "biaya kuliah ub",
+            "patterns" : [
+                "Berapa biaya kuliah di UB tiap semester?",
+                "Jumlah tanggungan tiap semester kuliah di UB"
+            ],
+            "response" : [
+                "Anda dapat mengakses informasinya melalui [http://selma.ub.ac.id]"
+            ]
         }
     ]
 }
