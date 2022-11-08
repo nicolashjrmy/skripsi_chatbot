@@ -460,6 +460,106 @@
             "response" : [
                 "Anda dapat mengakses informasinya melalui [http://selma.ub.ac.id]"
             ]
+        },
+        {
+            "tag" : "nilai praktikum daring",
+            "patterns" : [
+                "Permintaan Nilai Praktikum secara Daring untuk Semester Antara",
+                "Saya ingin mendapat nilai praktikum saat semester antara online, bagaimana caranya?",
+                "nilai praktikum daring"
+            ],
+            "response" : [
+                "Mahasiswa melakukan cek nilai praktikum melalui SIAM. Bila di SIAM sudah ada nilai praktikum, maka nilai tersebut dapat digunakan sebagai persyaratan pendaftaran Semester Antara Bila tidak ada komponen nilai praktikum pada SIAM, dapat mengajukan permintaan nilai praktikum secara daring dengan mengisi form dan mengunggah hasil scan KHS dari SIAM di https://forms.gle/f17zrxXV27387cV76. Laboran akan mengirimkan surat keterangan nilai praktikum ke email masing-masing mahasiswa"
+            ]
+        },
+        {
+            "tag" : "layanan surat akademik",
+            "patterns" : [
+                "Bagaimana cara mengurus surat akademik secara daring?",
+                "Link untuk mengurus surat akademik"
+            ],
+            "response" : [
+                "1. Surat Pengantar Tugas Mata Kuliah: https://bit./SuratPengantarTugasMataKuliahFilkom, 2. Surat Aktif Kuliah: https://bit.ly/SuratAktifKuliahFilkom, 3. Surat Pengantar Pengambilan Data Skripsi/Tesis: https://bit.ly/SuratPengantarPengambilanDataSkripsiTesisFilkom, 4. Cetak Transkrip Nilai Akademik: https://bit.ly/TranskripNilaiFilkom, 5. Legalisir Ijasah, Transkrip, SKL dan Akreditasi Prodi https://bit.ly/LegalisirFilkom"
+            ]
+        },
+        {
+            "tag" : "pendaftaran wisuda",
+            "patterns" : [
+                "Bagaimana cara pendaftaran wisuda?",
+                "tahapan pendaftaran wisuda"
+            ],
+            "response" : [
+                "Berikut tahapan pendaftaran wisuda di FILKOM UB: 1. unggah dokumen di SIAM 2. mengisi gform di tautan berikut https://filkom.ub.ac.id/kemahasiswaan/layanan-kemahasiswaan/ 3. verifikasi data ijazah dan transkrip ke Bpk. Joko melalui Yudisium WA Center di nomor 081132007577 (wa message only) 4. mengisi data tracer studi melalui bit.ly/TracerFilkom 5. setelah menyelesaikan 4 poin di atas tinggal menunggu antrian wisuda informasi antrian wisuda dapat diakses di https://filkom.ub.ac.id/kemahasiswaan/informasi-wisuda/"
+            ]
+        },
+        {
+            "tag" : "bayar ukt",
+            "patterns" : [
+                "Bagaimana cara membayar UKT?",
+                "Tata cara membayar ukt"
+            ],
+            "response" : [
+                "Untuk melakukan pembayaran UKT, SPP, IPI dapat dilihat pada laman https://selma.ub.ac.id/tata-cara-pembayaran/"
+            ]
+        },
+        {
+            "tag" : "bantuan keuangan",
+            "patterns" : [
+                "Bagaimana cara mengajukan bantuan keuangan?",
+                "Pengajuan bantuan keuangan"
+            ],
+            "response" : [
+                "Untuk pengajuan keuangan anda dalam melihat laman https://sibaku.ub.ac.id sesuai jadwal yang ditentukan."
+            ]
+        },
+        {
+            "tag" : "ukt 50%",
+            "patterns" : [
+                "Persyaratan membayar ukt lima puluh persen bagi mahasiswa lama",
+                "ketentuan pembayaran ukt untuk mahasiswa semester akhir"
+            ],
+            "response" : [
+                "Kondisi Mahasiswa yang berhak membayar UKT paling tinggi 50% (limapuluh persen) dari UKT : Mahasiswa S1 yang berada pada semester 9 (sembilan) dan seterusnya Sudah menempuh sekurang-kurangnya 138 sks Mengambil mata kuliah kurang dari atau sama dengan 6 (enam) satuan kredit semester Dalam hal mahasiswa yang diberi keringanan UKT sebesar 50% mengambil/menempuh lebih dari 6(enam) sks maka UKT akan dikembalikan kepada UKT semula Untuk informasi lebih detail dapat merujuk pada Surat Direktorat Jenderal Pendidikan Tinggi Nomor 0248/E.E1/TM.01.04/2021, tanggal 9 April 2021, perihal Penjelasan Ketentuan Permendikbud Nomor 25 Tahun 2020 (terlampir) Surat Edaran Rektor Universitas Brawijaya Nomor 7078/UN10/TU/2021 tentang KERINGANAN UANG KULIAH TUNGGAL BAGI MAHASISWA TINGKAT AKHIR (Terlampir) Ketentuan ini berlaku sejak Semester Ganjil 2021/2022"
+            ]
+        },
+        {
+            "tag" : "mahasiswa bebas ukt",
+            "patterns" : [
+                "Persyaratan mahasiswa bebas ukt",
+                "Ketentuan Mahasiswa dibebaskan dari kewajiban membayar UKT"
+            ],
+            "response" : [
+                "Ketentuan Mahasiswa dibebaskan dari kewajiban membayar UKT : Mahasiswa Program Sarjana yang telah menempuh ujian Skripsi, menyelesaikan revisi dan memenuhi semua persyaratan yudisium Untuk memastikan status Lulus mahasiswa dapat melakukan cek status siam.ub.ac.id. Jika membutuhkan informasi lebih lanjut dapat menghubungi halofilkom.ub.ac.id."
+            ]
+        },
+        {
+            "tag" : "surat rek mbkm",
+            "patterns" : [
+                "Bagaimana cara mengurus surat rekomendasi MBKM?",
+                "Cara mengurus surat rekomendasi untuk mengikuti kegiatan kampus merdeka"
+            ],
+            "response" : [
+                "Prosedur pengurusan Surat Rekomendasi untuk mengikuti kegiatan Merdeka Belajar Kampus Merdeka (MBKM): Mahasiswa terlebih dahulu mengisikan Form Pendaftaran MBKM. Template Form yang dapat diunduh pada tautan berikut https://s.ub.ac.id/mbkmacckps Form Pendaftaran MBKM yang sudah diisi selanjutnya diunggah untuk mendapatkan persetujuan Ketua Program Studi melalui gdrive berikut: Departemen Teknik Informatika : https://s.ub.ac.id/daftarmbkmdtif Departemen Sistem Informasi : https://s.ub.ac.id/daftarmbkmdsi Format penulisan nama file: [NIM – Nama – Prodi] Mengunggah Form Pendaftaran MBKM sebagai bukti dukung pengajuan Surat Rekomendasi (SR) pada gform berikut https://s.ub.ac.id/rekomendasimbkm Cek Status Surat Rekomendasi (SR) akses menggunakan akun @ub.ac.id pada tautan berikut https://s.ub.ac.id/cekrekomendasi Surat Rekomendasi (SR) yang sudah selesai dapat diunduh pada tautan berikut https://s.ub.ac.id/accrekomendasi"
+            ]
+        },
+        {
+            "tag" : "proposal skripsi terlambat",
+            "patterns" : [
+                "Bagaimana cara mengajukan proposal skripsi di luar periode pengajuan proposal?",
+                "Cara mengajukan proposal skripsi terlambat"
+            ],
+            "response" : [
+                "Di dalam Filkom Apps, proposal telah diatur agar dapat diunggah hanya sesuai jadwal yang telah ditetapkan dalam periode semester tersebut. Bagi mahasiswa yang bermaksud unggah di luar periode, maka: 1. pastikan saudara telah mengunggah PRAPROPOSAL dan sudah disetujui calon dosen. tahap persetujuan dapat dicek di filkomapps 2. Di luar periode unggah, maka tombol pengajuan PROPOSAL dinonaktifkan dan terdapat keterangan di luar periode unggah. supaya praproposal dapat dilanjutkan menjadi proposal, maka silakan konsultasi dan memohon kepada dosen pembimbing untuk dapat mengajukan izin kepada Ketua Departemen perihal akses terbatas pengajuan proposal. Umumnya masing-masing departemen memiliki prosedur untuk pengajuan tersebut. 3. untuk kendala teknis lain silakan ditanyakan melalui HaloFILKOM"
+            ]
+        },
+        {
+            "tag" : "peminjaman aset",
+            "patterns" : [
+                "Bagaimana cara meminjam barang dari FILKOM UB?"
+            ],
+            "response" : [
+                "Untuk pengajuan keuangan anda dalam melihat laman https://sibaku.ub.ac.id sesuai jadwal yang ditentukan."
+            ]
         }
     ]
 }
